@@ -3,8 +3,13 @@
 import os
 
 print("Find pair strings with \"DocumentRoot\" and change it")
-os.system("ruby list.rb")
-a = input()
+print("1.nano")
+print("2.micro")
+print("3.joe")
+print("4.vim")
+print("5.emacs")
+print("6.neovim")
+a = int(input())
 
 if a == 1:
     os.system("apt install nano && nano /data/data/com.termux/files/usr/etc/apache2/httpd.conf")
