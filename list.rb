@@ -1,6 +1,0 @@
-puts("1.nano")
-puts("2.micro")
-puts("3.joe")
-puts("4.vim")
-puts("5.emacs")
-puts("6.neovim")
